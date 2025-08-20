@@ -1,7 +1,8 @@
 package com.challenge.foro_hub.domain.usuario.validations.update;
 
-import com.desafio.forohub.domain.usuario.dto.ActualizarUsuarioDTO;
-import com.desafio.forohub.domain.usuario.repository.UsuarioRepository;
+
+import com.challenge.foro_hub.domain.usuario.dto.ActualizarUsuarioDTO;
+import com.challenge.foro_hub.domain.usuario.repository.UsuarioRepository;
 import jakarta.validation.ValidationException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
